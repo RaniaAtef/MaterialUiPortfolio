@@ -48,7 +48,7 @@ const Biography = () => {
           </Box>
           <Grid container sx={{ pt: "100px", p: "50px" }}>
             <Grid item lg={6} xs={12}>
-              <img src="../../public/1.jpg" style={{ width: "80%" }}></img>
+              <img src="./1.jpg" style={{ width: "80%" }}></img>
             </Grid>
 
             <Grid item lg={6} xs={12}>

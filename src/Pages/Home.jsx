@@ -16,13 +16,10 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Biography />
-
       <Services />
-
       <News />
       <Counter />
       <Contact />
-
       <Footer />
     </>
   );

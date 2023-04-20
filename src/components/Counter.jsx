@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NumberCounter from "number-counter";
+import NumberCounter from "react-countup";
 
 const Counter = () => {
   return (
@@ -19,7 +19,7 @@ const Counter = () => {
                   variant="h3"
                   sx={{ fontSize: "40px", fontWeight: "600", color: "white" }}
                 >
-                  <NumberCounter end={555} delay={4} />
+                  <NumberCounter end={555} duration={4} />
                 </Typography>
                 <Typography
                   component="span"
@@ -35,7 +35,7 @@ const Counter = () => {
                   variant="h3"
                   sx={{ fontSize: "40px", fontWeight: "600", color: "white" }}
                 >
-                  <NumberCounter end={222} delay={4} />
+                  <NumberCounter end={222} duration={4} />
                 </Typography>
                 <Typography
                   component="span"
@@ -51,7 +51,7 @@ const Counter = () => {
                   variant="h3"
                   sx={{ fontSize: "40px", fontWeight: "600", color: "white" }}
                 >
-                  <NumberCounter end={444} delay={4} />
+                  <NumberCounter end={444} duration={4} />
                 </Typography>
                 <Typography
                   component="span"
@@ -67,7 +67,7 @@ const Counter = () => {
                   variant="h3"
                   sx={{ fontSize: "40px", fontWeight: "600", color: "white" }}
                 >
-                  <NumberCounter end={777} delay={4} />
+                  <NumberCounter end={777} duration={4} />
                 </Typography>
                 <Typography
                   component="span"

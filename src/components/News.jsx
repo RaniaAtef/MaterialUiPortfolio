@@ -10,7 +10,7 @@ import React, { useState } from "react";
 
 const images = [
   {
-    src: "/public/shoes.jpg",
+    src: "/shoes.jpg",
     type: "Branding",
   },
   {
